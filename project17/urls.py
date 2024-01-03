@@ -23,5 +23,10 @@ urlpatterns = [
     path('display_topics/',display_topics,name='display_topics'),
     path('display_webpages/',display_Webpages,name='display_webpages'),
     path('display_accessrecords/',display_Accessrecords,name='display_accessrecords'),
+    path('insert_topic/',insert_topic,name='insert_topic'),
+    path('insert_webpage/',insert_webpage,name='insert_webpage'),
+    path('insert_accessrecord/',insert_accessrecord,name='insert_accessrecord'),
+    path('update_Webpages/',update_Webpages,name='update_Webpages'),
+    path('checkbox/',checkbox,name='checkbox'),
 ]
 
